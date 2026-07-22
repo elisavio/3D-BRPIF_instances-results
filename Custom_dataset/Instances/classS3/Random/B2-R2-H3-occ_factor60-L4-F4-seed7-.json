@@ -1,0 +1,1 @@
+{"familyRetrievalSequence": [3, 4, 4, 3], "maxHeightStacks": 3, "craneBay": 1, "craneHeight": 5, "bay0": [[{"family": 4, "id": 1}, {"family": 3, "id": 5}], [{"family": 3, "id": 2}, {"family": 4, "id": 6}]], "bay1": [[{"family": 3, "id": 3}, {"family": 4, "id": 7}], [{"family": 4, "id": 4}]]}
