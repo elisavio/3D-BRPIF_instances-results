@@ -1,6 +1,6 @@
 # 3D-BRPIF_instances-results
 
-This repository contains intances and results for the \textit{Three-Dimensional Block Relocation Problem with Item Families} proposed and discussed in the Ph.D. thesis "Heuristics Approaches for the Three-Dimensional Block Relocation Problem with Item Families: Operations Research and Reinforcement Learning Perspectives" by Elisa Savio.
+This repository contains intances and results for the *Three-Dimensional Block Relocation Problem with Item Families* proposed and discussed in the Ph.D. thesis "Heuristics Approaches for the Three-Dimensional Block Relocation Problem with Item Families: Operations Research and Reinforcement Learning Perspectives" by Elisa Savio.
 
 It contains 4 main folders:
 - `Boge&Knust_dataset`, which contains instaces and results obtained for the Block Relocation Problem with Item Families proposed by [Boge and Knust (2023)](https://link.springer.com/article/10.1007/s00291-022-00703-x). Instances are also available at http://www2.informatik.uos.de/kombopt/data/brpif/.
