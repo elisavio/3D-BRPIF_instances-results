@@ -1,3 +1,4 @@
+move_type,itemID,itemFamily,origin_slot,destination_slot
 RET,21,11,"[2, 2, 1]","[2, 3, 0]"
 RET,20,1,"[2, 1, 1]","[2, 3, 0]"
 RET,9,6,"[2, 2, 0]","[2, 3, 0]"
