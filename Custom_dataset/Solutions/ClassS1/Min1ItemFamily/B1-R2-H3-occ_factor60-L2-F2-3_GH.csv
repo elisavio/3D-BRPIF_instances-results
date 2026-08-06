@@ -1,4 +1,0 @@
-move_type,itemID,itemFamily,origin_slot,destination_slot
-REL,3,2,"[0, 0, 1]","[0, 1, 1]"
-RET,1,1,"[0, 0, 0]","[0, 2, 0]"
-RET,3,2,"[0, 1, 1]","[0, 2, 0]"
