@@ -1,0 +1,5 @@
+move_type,itemID,itemFamily,origin_slot,destination_slot
+RET,5,3,"[0, 0, 1]","[0, 2, 0]"
+RET,1,4,"[0, 0, 0]","[0, 2, 0]"
+RET,6,4,"[0, 1, 1]","[0, 2, 0]"
+RET,2,3,"[0, 1, 0]","[0, 2, 0]"
