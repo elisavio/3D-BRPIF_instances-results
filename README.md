@@ -15,7 +15,7 @@ It contains 4 main folders:
     - The `Results` folder contains the results obtained by GH and TS.
     - The `Solutions` folder details all the corresponding item movement sequences.
 - `FeatureAnalysis_dataset`, which contains the 50 instances and results employed to perform the feature analysis aimed at identifying the useful features to describe the observation of the environment.
-- `Lee&Lee_dataset`, which contains instances and results obtained for the Three-Dimensional Block Relocation Problem proposed by [Lee and Lee (2010)](https://www.sciencedirect.com/science/article/abs/pii/S0305054809002433?via%3Dihub).
+- `Lee&Lee_dataset`, which contains instances and results obtained for the Block Relocation Problem proposed by [Lee and Lee (2010)](https://www.sciencedirect.com/science/article/abs/pii/S0305054809002433?via%3Dihub).
     - The `Instances` folder contains all instances in .txt format.
     - The `Results` folder contains the results obtained by GH and TS.
     - The `Solutions` folder details all the corresponding item movement sequences.
