@@ -1,21 +1,30 @@
-# 3D-BRPIF: instances&results
+# 3D-BRPIF_instances-results
 
 This repository contains intances and results for the *Three-Dimensional Block Relocation Problem with Item Families* (3D-BRPIF) proposed and discussed in the Ph.D. thesis "Operations Research and Reinforcement Learning Approaches for the Three-Dimensional  Block Relocation Problem with Item Families" by Elisa Savio.
 
-It contains 4 main folders:
-- `3D-BRPIF-Benchmark_dataset`, which contains instances, results, and solutions for a newly generated dataset. 
-    - In the `Instances` folder, instances are classified depending on the size: small (S), medium (M), and realistic (R). Each category contains classes having different serial numbers. Each class contains 3 folders, one for each distribution: $RandomAssignment$, $Min1ItemFamily$, and $UniformAssignment$.
-    - In the `Results` folder, instances are again divided based on their size. Each folder details the results obtained with the discussed methodologies:
-        - `Small_instances`: Greedy Heuristic (GH), Integer Linear Programming (ILP) model, Tabu Search (TS), and Reinforcement Learning (RL).
-        - `Medium_instances`: GH and TS on the Unrestricted version; GH, TS-Restricted, and RL on class M1 with restricted version.
-        - `Realistic_instances`: GH and TS.
-    - The `Solutions` folder contains all .csv files describing the item movement sequence obtained with all the methodologies and test cases above-described.
-- `Boge&Knust_dataset`, which contains instaces and results obtained for the Block Relocation Problem with Item Families proposed by [Boge and Knust (2023)](https://link.springer.com/article/10.1007/s00291-022-00703-x). Instances are also available at http://www2.informatik.uos.de/kombopt/data/brpif/.
-    - The `Instances` folder contains all instances in .json format.
-    - The `Results` folder contains the results obtained by GH and TS.
-    - The `Solutions` folder details all the corresponding item movement sequences.
-- `FeatureAnalysis_dataset`, which contains the 50 instances and results employed to perform the feature analysis aimed at identifying the useful features to describe the observation of the environment.
-- `Lee&Lee_dataset`, which contains instances and results obtained for the Block Relocation Problem proposed by [Lee and Lee (2010)](https://www.sciencedirect.com/science/article/abs/pii/S0305054809002433?via%3Dihub).
-    - The `Instances` folder contains all instances in .txt format.
-    - The `Results` folder contains the results obtained by GH and TS.
-    - The `Solutions` folder details all the corresponding item movement sequences.
+The repository is organized into four main folders, each containing datasets, computational results, and solution files related to the 3D-BRPIF, and the associated feature analysis.
+
+1. `3D-BRPIF-Benchmark_dataset`
+    This folder contains the instances, computational results, and solutions for a newly generated 3D-BRPIF benchmark dataset.
+    - `Instances/`: Instances are grouped according to their size: small (S), medium (M), and realistic (R). Within each size category, instances are organized into classes identified by different serial numbers. Each class contains three folders corresponding to the following item assignment distributions: $RandomAssignment$, $Min1ItemFamily$, and $UniformAssignment$.
+    - `Results/`: This folder contains the computational results obtained using the different methodologies, organized by instance size:
+        - `Small_instances/`: Greedy Heuristic (GH), Integer Linear Programming (ILP) model, Tabu Search (TS), and Reinforcement Learning (RL).
+        - `Medium_instances/`: GH and TS on the Unrestricted version; GH, TS-Restricted, and RL on class M1 with the Restricted version.
+        - `Realistic_instances/`: GH and TS.
+    - `Solutions`: This folder contains the .csv files describing the item movement sequences obtained using the aforementioned methodologies across the corresponding test cases.
+
+2. `Boge&Knust_dataset`
+    This folder contains the instances and computational results for the Block Relocation Problem with Item Families proposed by [Boge and Knust (2023)](https://link.springer.com/article/10.1007/s00291-022-00703-x). The instances are also available at http://www2.informatik.uos.de/kombopt/data/brpif/.
+    - `Instances/`: Contains all instances in .json format.
+    - `Results/`: Contains the computational results obtained using GH and TS.
+    - `Solutions/`: Contains the corresponding item movement sequences.
+
+3. `FeatureAnalysis_dataset` 
+    This folder contains the 50 instances and the associated results used in the feature analysis. The analysis aims to identify useful features for representing the environment's observations, supporting the development of the RL approach.
+
+
+4. `Lee&Lee_dataset`
+    This folder contains the instances and computational results for the Block Relocation Problem proposed [by Lee and Lee (2010)](https://www.sciencedirect.com/science/article/abs/pii/S0305054809002433?via%3Dihub).
+    - `Instances/`: Contains all instances in .txt format.
+    - `Results/`: Contains the computational results obtained using GH and TS.
+    - `Solutions/`: Contains the corresponding item movement sequences.
