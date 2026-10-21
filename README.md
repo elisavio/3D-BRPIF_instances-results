@@ -1,6 +1,6 @@
 # 3D-BRPIF_instances-results
 
-This repository contains intances and results for the *Three-Dimensional Block Relocation Problem with Item Families* (3D-BRPIF) proposed and discussed in the Ph.D. thesis "Operations Research and Reinforcement Learning Approaches for the Three-Dimensional  Block Relocation Problem with Item Families" by Elisa Savio.
+This repository contains intances and results for the *Three-Dimensional Block Relocation Problem with Item Families* (3D-BRPIF) proposed and discussed in the Ph.D. thesis "Operations Research and Reinforcement Learning Approaches for the Three-Dimensional Block Relocation Problem with Item Families" by Elisa Savio.
 
 The repository is organized into four main folders, each containing datasets, computational results, and solution files related to the 3D-BRPIF, and the associated feature analysis.
 
