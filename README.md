@@ -24,7 +24,17 @@ The repository is organized into four main folders, each containing datasets, co
 
 
 4. `Lee&Lee_dataset`
-    This folder contains the instances and computational results for the Block Relocation Problem proposed [by Lee and Lee (2010)](https://www.sciencedirect.com/science/article/abs/pii/S0305054809002433?via%3Dihub).
+    This folder contains the instances and computational results for the Block Relocation Problem proposed by [Lee and Lee (2010)](https://www.sciencedirect.com/science/article/abs/pii/S0305054809002433?via%3Dihub).
     - `Instances/`: Contains all instances in .txt format.
     - `Results/`: Contains the computational results obtained using GH and TS.
     - `Solutions/`: Contains the corresponding item movement sequences.
+
+## License
+
+The following components of this repository are licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/) license:
+
+- The `3D-BRPIF-Benchmark_dataset/` folder.
+- The `FeatureAnalysis_dataset/` folder.
+- The `Results/` and `Solutions/` folders within `Boge&Knust_dataset/` and `Lee&Lee_dataset/`.
+
+All other repository contents are excluded from this license unless otherwise specified.
