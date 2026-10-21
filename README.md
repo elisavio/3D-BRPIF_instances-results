@@ -22,7 +22,6 @@ The repository is organized into four main folders, each containing datasets, co
 3. `FeatureAnalysis_dataset` 
     This folder contains the 50 instances and the associated results used in the feature analysis. The analysis aims to identify useful features for representing the environment's observations, supporting the development of the RL approach.
 
-
 4. `Lee&Lee_dataset`
     This folder contains the instances and computational results for the Block Relocation Problem proposed by [Lee and Lee (2010)](https://www.sciencedirect.com/science/article/abs/pii/S0305054809002433?via%3Dihub).
     - `Instances/`: Contains all instances in .txt format.
