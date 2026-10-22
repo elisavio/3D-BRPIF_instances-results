@@ -37,3 +37,9 @@ The following components of this repository are licensed under the [Creative Com
 - The `Results/` and `Solutions/` folders within `Boge&Knust_dataset/` and `Lee&Lee_dataset/`.
 
 All other repository contents are excluded from this license unless otherwise specified.
+
+## Citation
+
+If you use the 3D-BRPIF-Benchmark dataset, the computational results, or the solutions contained in this repository, please cite this repository as follows.
+
+Elisa Savio. (2026-10-21). *3D-BRPIF-Benchmark Dataset, Computational Results, and Solutions* (v1.0.0). https://doi.org/10.5281/zenodo.23535197

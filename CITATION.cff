@@ -1,9 +1,9 @@
-cff-version: 1.1.0
-message: "If you use this software, please cite it as below."
+cff-version: 1.2.0
+message: "If you use the 3D-BRPIF-Benchmark dataset, the computational results, or the solutions contained in this repository, please cite this repository as follows."
 authors:
 - family-names: Savio
   given-names: Elisa
-  orcid: "https://orcid.org/0009-0005-8621-787X"
-title: "Initial Release of 3D-BRPIF-Benchmark Dataset, Computational Results, and Solutions"
+  # orcid: "https://orcid.org/0009-0005-8621-787X"
+title: "3D-BRPIF-Benchmark Dataset, Computational Results, and Solutions"
 version: v1.0.0
 date-released: 2026-10-21
